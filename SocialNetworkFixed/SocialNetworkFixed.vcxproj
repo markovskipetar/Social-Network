@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2f107e95-f60b-49ee-818d-6609a8279e8b}</ProjectGuid>
+    <RootNamespace>SocialNetworkFixed</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFiles\Commands\AddComment.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Command.cpp" />
+    <ClCompile Include="SourceFiles\Commands\CommandFactory.cpp" />
+    <ClCompile Include="SourceFiles\Entities\Comment.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Create.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Edit.cpp" />
+    <ClCompile Include="SourceFiles\Commands\EditId.cpp" />
+    <ClCompile Include="SourceFiles\Engine.cpp" />
+    <ClCompile Include="SourceFiles\Entities\IComment.cpp" />
+    <ClCompile Include="SourceFiles\Commands\List.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Login.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Logout.cpp" />
+    <ClCompile Include="SourceFiles\Commands\MakeReply.cpp" />
+    <ClCompile Include="SourceFiles\Entities\MyString.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Open.cpp" />
+    <ClCompile Include="SourceFiles\Entities\Post.cpp" />
+    <ClCompile Include="SourceFiles\Commands\PostCommand.cpp" />
+    <ClCompile Include="SourceFiles\Commands\PostOpen.cpp" />
+    <ClCompile Include="SourceFiles\Commands\PostQuit.cpp" />
+    <ClCompile Include="SourceFiles\Commands\PrintDiscussion.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Quit.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Register.cpp" />
+    <ClCompile Include="SourceFiles\Commands\RemoveComment.cpp" />
+    <ClCompile Include="SourceFiles\Commands\RemovePost.cpp" />
+    <ClCompile Include="SourceFiles\Commands\RemoveTheme.cpp" />
+    <ClCompile Include="SourceFiles\Entities\Reply.cpp" />
+    <ClCompile Include="SourceFiles\Commands\SaveAs.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Search.cpp" />
+    <ClCompile Include="StartUp.cpp" />
+    <ClCompile Include="SourceFiles\Entities\Theme.cpp" />
+    <ClCompile Include="SourceFiles\Repositories\ThemesRepository.cpp" />
+    <ClCompile Include="SourceFiles\Entities\User.cpp" />
+    <ClCompile Include="SourceFiles\Repositories\UsersRepository.cpp" />
+    <ClCompile Include="SourceFiles\Commands\Vote.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Commands\AddComment.h" />
+    <ClInclude Include="Headers\Commands\Command.h" />
+    <ClInclude Include="Headers\Commands\CommandFactory.h" />
+    <ClInclude Include="Headers\Entities\Comment.h" />
+    <ClInclude Include="Headers\Commands\Create.h" />
+    <ClInclude Include="Headers\Commands\Edit.h" />
+    <ClInclude Include="Headers\Commands\EditId.h" />
+    <ClInclude Include="Headers\Engine.h" />
+    <ClInclude Include="Headers\Global\GlobalFunctions.h" />
+    <ClInclude Include="Headers\Entities\IComment.h" />
+    <ClInclude Include="Headers\Commands\List.h" />
+    <ClInclude Include="Headers\ResultEnums\OpenResult.h" />
+    <ClInclude Include="Headers\Commands\Login.h" />
+    <ClInclude Include="Headers\ResultEnums\LoginResult.h" />
+    <ClInclude Include="Headers\Commands\Logout.h" />
+    <ClInclude Include="Headers\Commands\MakeReply.h" />
+    <ClInclude Include="Headers\Entities\MyString.h" />
+    <ClInclude Include="Headers\Commands\Open.h" />
+    <ClInclude Include="Headers\Entities\Post.h" />
+    <ClInclude Include="Headers\Commands\PostCommand.h" />
+    <ClInclude Include="Headers\Commands\PostOpen.h" />
+    <ClInclude Include="Headers\Commands\PostQuit.h" />
+    <ClInclude Include="Headers\ResultEnums\PostResult.h" />
+    <ClInclude Include="Headers\Commands\PrintDiscussion.h" />
+    <ClInclude Include="Headers\Commands\Quit.h" />
+    <ClInclude Include="Headers\Commands\Register.h" />
+    <ClInclude Include="Headers\ResultEnums\RegisterResult.h" />
+    <ClInclude Include="Headers\Commands\RemoveComment.h" />
+    <ClInclude Include="Headers\Commands\RemovePost.h" />
+    <ClInclude Include="Headers\ResultEnums\Result.h" />
+    <ClInclude Include="Headers\Commands\RemoveTheme.h" />
+    <ClInclude Include="Headers\Entities\Reply.h" />
+    <ClInclude Include="Headers\Commands\SaveAs.h" />
+    <ClInclude Include="Headers\Commands\Search.h" />
+    <ClInclude Include="Headers\Entities\Theme.h" />
+    <ClInclude Include="Headers\Repositories\ThemesRepository.h" />
+    <ClInclude Include="Headers\Entities\User.h" />
+    <ClInclude Include="Headers\Repositories\UsersRepository.h" />
+    <ClInclude Include="Headers\Commands\Vote.h" />
+    <ClInclude Include="Headers\ResultEnums\VoteResult.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

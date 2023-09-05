@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{4e25966b-a395-42f1-97a5-35148c21f373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{a4e8c73c-e3fc-4fcf-89ed-b43e54458bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repositories">
+      <UniqueIdentifier>{5b055f7d-dbb4-4b47-9e06-d105ceb586da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repositories">
+      <UniqueIdentifier>{fec2a67f-ae6d-43f7-bba5-6ba9eeb59dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResultEnums">
+      <UniqueIdentifier>{5a1782bd-e710-4beb-885e-da5bd65c2a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Global">
+      <UniqueIdentifier>{63e17e75-e61d-4e8a-b442-65ade6016261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{875f94c1-7e45-4eb6-9e90-785184779a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entites">
+      <UniqueIdentifier>{6ac0c3e2-ade2-487d-9490-7322ca994c26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Command.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Vote.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Search.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\SaveAs.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\Reply.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\RemoveTheme.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\RemoveComment.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\RemovePost.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Register.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Quit.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\PrintDiscussion.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\PostOpen.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\PostQuit.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\PostCommand.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\MakeReply.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\AddComment.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\CommandFactory.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Create.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Edit.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\List.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Login.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\EditId.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Open.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Repositories\ThemesRepository.cpp">
+      <Filter>Source Files\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Repositories\UsersRepository.cpp">
+      <Filter>Source Files\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Commands\Logout.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\User.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\Theme.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\Post.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\MyString.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\Comment.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Entities\IComment.cpp">
+      <Filter>Source Files\Entites</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\CommandFactory.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Create.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\EditId.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Edit.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Logout.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Login.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\MakeReply.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Open.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\PostOpen.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\RemovePost.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Vote.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Search.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\SaveAs.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\RemoveTheme.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\RemoveComment.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Register.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\PrintDiscussion.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\PostQuit.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\List.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\PostCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\Quit.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Commands\AddComment.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Repositories\ThemesRepository.h">
+      <Filter>Header Files\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Repositories\UsersRepository.h">
+      <Filter>Header Files\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\LoginResult.h">
+      <Filter>Header Files\ResultEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\RegisterResult.h">
+      <Filter>Header Files\ResultEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\Result.h">
+      <Filter>Header Files\ResultEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\VoteResult.h">
+      <Filter>Header Files\ResultEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\PostResult.h">
+      <Filter>Header Files\ResultEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Global\GlobalFunctions.h">
+      <Filter>Header Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\Reply.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\Comment.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\IComment.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ResultEnums\OpenResult.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\Post.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\Theme.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\User.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entities\MyString.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
