@@ -17,14 +17,15 @@ void Engine::Run()
 
 		Command* command = commandFactory->readCommand(commandText);
 
-		if (command)
+		if (!command)
 		{
-			command->execute();
+			std::cout << "---------" << std::endl;
+			std::cout << "Invalid command!" << std::endl << std::endl;
 			continue;
 		}
 
-		std::cout << "---------" << std::endl;
-		std::cout << "Invalid command!" << std::endl << std::endl;
+		command->execute();
+		delete command;
 	}
 
 	CommandFactory::freeInstance();
